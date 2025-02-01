@@ -1,2 +1,22 @@
+body {
+    margin: 0; /* Remove default margin */
+}
 
-/* Your CSS Code here. */
+.holder {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Space between items */
+    padding: 0 10px; /* Optional: Add some padding to the holder */
+}
+
+.item {
+    flex: 1; /* Allow items to grow and fill the space */
+    margin: 0 5px; /* Space between items */
+    min-width: 100px; /* Minimum width for each item */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    text-align: center; /* Center text inside items */
+    background-color: #f0f0f0; /* Optional: Background color for items */
+    padding: 10px; /* Optional: Padding inside items */
+    border: 1px solid #ccc; /* Optional: Border for items */
+}
+
